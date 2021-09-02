@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.linkToGitHub {
+  --offset: 10px;
+
+  display: block;
+  max-width: 3rem;
+  padding: .125rem;
+
+  position: fixed;
+  right: var(--offset);
+  bottom: var(--offset);
+  z-index: 10;
+
+  text-decoration: none;
+
+  color: #000;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.linkToGitHub__icon {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  fill: currentColor;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
