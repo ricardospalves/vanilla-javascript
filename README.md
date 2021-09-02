@@ -7,4 +7,4 @@ features mais modernas, então não darei suporte para browsers antigos como o I
 
 ## Projetos
 
-* [Random color generator](https://ricardospalves.github.io/vanilla-javascript/)
+* [Random color generator](https://ricardospalves.github.io/vanilla-javascript/random-color-generator/)
