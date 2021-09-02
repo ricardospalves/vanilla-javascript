@@ -22,4 +22,5 @@ p {
   -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #FFF;
+  user-select: none;
 }
